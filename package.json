@@ -1,0 +1,29 @@
+{
+  "name": "cuiz.in",
+  "version": "1.0.0",
+  "description": "Partie front de l'application web cuiz.in",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XTREM-MAX/Cuiz.in-Front.git"
+  },
+  "author": "XTREM-TEAM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XTREM-MAX/Cuiz.in-Front/issues"
+  },
+  "homepage": "https://github.com/XTREM-MAX/Cuiz.in-Front#readme",
+  "devDependencies": {
+    "css-loader": "^4.3.0",
+    "style-loader": "^1.3.0",
+    "ts-loader": "^8.0.4",
+    "typescript": "^4.0.3",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "worker-loader": "^3.0.3"
+  }
+}
