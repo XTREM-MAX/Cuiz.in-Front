@@ -1,0 +1,31 @@
+@font-face {
+  src: url(../../../static/fonts/Roboto-Regular.ttf);
+  font-family: roboto-regular; }
+body {
+  background-color: #E2F3F5;
+  color: #676767;
+  min-height: 100vh;
+  margin: 0; }
+
+#bottombar {
+  font-family: roboto-regular;
+  position: fixed;
+  height: 56px;
+  width: 100%;
+  bottom: 0;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 15px 15px 0 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  #bottombar div {
+    height: fit-content;
+    display: flex;
+    flex-direction: column; }
+    #bottombar div span {
+      margin-top: 5px;
+      font-size: 14px; }
+    #bottombar div.selected {
+      color: #CD7575; }
+
+/*# sourceMappingURL=style.css.map */
