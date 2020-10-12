@@ -25,7 +25,13 @@ body {
     #bottombar div span {
       margin-top: 5px;
       font-size: 14px; }
+    #bottombar div .focus {
+      display: none; }
     #bottombar div.selected {
       color: #CD7575; }
+      #bottombar div.selected img:not(.focus) {
+        display: none; }
+      #bottombar div.selected .focus {
+        display: inline; }
 
 /*# sourceMappingURL=style.css.map */
