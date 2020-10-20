@@ -1,0 +1,184 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'montserrat';
+  src: url(../../../static/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'regular';
+  src: url(../../../static/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'light';
+  src: url(../../../static/fonts/Montserrat-Light.otf);
+}
+
+/**
+Principe d'imbrication en blocks, on peut mettre un selecteur avec des {} à l'intérieur d'un element. Grace à ca on sélectionne l'élement
+enfant :
+    div > img {} équivaut à div {
+        img {
+
+        }
+    }
+L'avantage est que tout est imbriqué et donc plus claire et concis
+**/
+body {
+  background-color: #F1F6F6;
+}
+
+.grandtitre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.Titre {
+  display: block;
+  font-family: montserrat;
+  color: #cd7474;
+  font-size: 30px;
+  margin-left: 18px;
+  margin-top: 25px;
+  margin-bottom: 19px;
+}
+
+.titrerecette {
+  font-size: 22px;
+}
+
+.recette {
+  border-radius: 20px;
+  background-color: white;
+  padding: 8px;
+  margin-bottom: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  /**
+        Justify-content permet d'aligner selon l'axe 'principal', celui que tu as dit en paramétrant flex-direction
+        align-items permet d'aligner selon l'axe 'oposé', vertical si tu as dit horizontal avec flex-direction, ou vice-versa 
+    **/
+}
+
+.recette .infos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: light;
+}
+
+.recette .infos div {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.recette .infos span:not(.titrerecette) {
+  color: #676767;
+  left: 5%;
+  bottom: 5%;
+  font-size: 10px;
+  /*line-height: 0.01cm;*/
+}
+
+.recette .infos .salope {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.recette .infos .heure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.recette .infos .heure div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.recette .img_recette {
+  width: 50%;
+  border-radius: 20px;
+  overflow: hidden;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.recette .img_recette img {
+  width: 100%;
+  height: auto;
+}
+
+.recette.el2 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.recette.el2 .infos {
+  margin-left: 10px;
+}
+
+.recette.el2 .infos img {
+  margin-right: 10px;
+}
+
+.recette.el1 {
+  text-align: right;
+}
+
+.recette.el1 .infos {
+  margin-right: 10px;
+}
+
+.recette.el1 .infos img {
+  margin-left: 10px;
+}
+/*# sourceMappingURL=style.css.map */
