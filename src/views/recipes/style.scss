@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'montserrat';
+    src: url(../../../static/fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: 'regular';
+    src: url(../../../static/fonts/Montserrat-Regular.ttf)
+}
+@font-face {
+    font-family: 'light';
+    src: url(../../../static/fonts/Montserrat-Light.otf)
+}
+
+/**
+Principe d'imbrication en blocks, on peut mettre un selecteur avec des {} à l'intérieur d'un element. Grace à ca on sélectionne l'élement
+enfant :
+    div > img {} équivaut à div {
+        img {
+
+        }
+    }
+L'avantage est que tout est imbriqué et donc plus claire et concis
+**/
+body {
+    background-color: #F1F6F6;
+}
+.grandtitre{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.Titre {
+    display: block;
+    font-family: montserrat;
+    color: rgb(205, 116, 116);
+    font-size: 30px;
+    margin-left: 18px;
+    margin-top: 25px;
+    margin-bottom: 19px;
+}
+
+.titrerecette
+{
+    font-size: 22px;
+}
+
+.recette {
+    border-radius: 20px;
+    background-color: white;
+    padding: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /**
+        Justify-content permet d'aligner selon l'axe 'principal', celui que tu as dit en paramétrant flex-direction
+        align-items permet d'aligner selon l'axe 'oposé', vertical si tu as dit horizontal avec flex-direction, ou vice-versa 
+    **/
+    .infos {
+        display: flex;
+        flex-direction: column;
+        font-family: light;
+        div {
+            align-items: center;
+            display: flex;
+            justify-content: space-around;
+        }
+        span:not(.titrerecette) {
+            color: #676767;
+            left: 5%;
+            bottom: 5%;
+            font-size: 10px;
+            /*line-height: 0.01cm;*/
+        }
+        .salope{
+            display: flex;
+            flex-direction: row;
+            margin-top: 4px;
+            margin-bottom: 4px;
+            justify-content: space-between;
+            
+        }
+        .heure{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            div {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+    
+    .img_recette {
+        width: 50%;
+        border-radius: 20px;
+        overflow: hidden;
+        height: fit-content;
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    &.el2 {
+        flex-direction: row-reverse;
+        .infos {
+            margin-left: 10px;
+            img {
+                margin-right: 10px;
+            }
+        }
+    }
+    &.el1{
+        text-align: right;
+        .infos {
+            margin-right: 10px;
+            img{
+                margin-left: 10px;
+            }
+        }
+    }
+}
+
