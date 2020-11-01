@@ -9,15 +9,11 @@
 @font-face {
     font-family: 'light';
     src: url(../../../static/fonts/Montserrat-Light.otf)
-
-.titre{
-    position: absolute;
-    width: 198.85px;
-    height: 27.18px;
-    left: 20.49px;
-    top: 32.64px;
-    
-    background: #CD7575;
-    border: 1px solid #000000;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+body{
+    background-color: #F1F6F6;
+}
+.cardre_1{
+    border-radius: 20px;
+    background-color: white;
 }

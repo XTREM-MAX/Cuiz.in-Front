@@ -1,1 +1,24 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@font-face {
+  font-family: 'montserrat';
+  src: url(../../../static/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'regular';
+  src: url(../../../static/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'light';
+  src: url(../../../static/fonts/Montserrat-Light.otf);
+}
+
+body {
+  background-color: #F1F6F6;
+}
+
+.cardre_1 {
+  border-radius: 20px;
+  background-color: white;
+}
+/*# sourceMappingURL=style.css.map */
