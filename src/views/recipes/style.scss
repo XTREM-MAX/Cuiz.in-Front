@@ -23,21 +23,27 @@ L'avantage est que tout est imbriqué et donc plus claire et concis
 **/
 body {
     background-color: #F1F6F6;
+    margin: 0 18px;
 }
 .grandtitre{
-    display: flex;
+    display: block;
     flex-direction: row;
+    margin-bottom: 19px;
+
+    img {
+        margin-top: -30px;
+        float: right;
+    }
 }
 
 
-.Titre {
+.titre {
     display: block;
     font-family: montserrat;
+    font-weight: bold;
     color: rgb(205, 116, 116);
     font-size: 30px;
-    margin-left: 18px;
     margin-top: 25px;
-    margin-bottom: 19px;
 }
 
 .titrerecette
@@ -49,7 +55,7 @@ body {
     border-radius: 20px;
     background-color: white;
     padding: 8px;
-    margin-bottom: 8px;
+    margin-bottom: 15px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -94,10 +100,10 @@ body {
     
     .img_recette {
         width: 50%;
-        border-radius: 20px;
         overflow: hidden;
         height: fit-content;
         img {
+            border-radius: 20px;
             width: 100%;
             height: auto;
         }
