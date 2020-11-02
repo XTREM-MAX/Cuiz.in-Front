@@ -17,8 +17,134 @@ body {
   background-color: #F1F6F6;
 }
 
-.cardre_1 {
+.cadre1 {
   border-radius: 20px;
   background-color: white;
+  padding: 8px;
+  margin-left: 18px;
+  margin-right: 22px;
+}
+
+.petittitre {
+  display: block;
+  font-size: 8.78px;
+  color: #A0A0A0;
+  margin-left: 10px;
+}
+
+.reponses {
+  display: block;
+  margin-left: 10px;
+  border-bottom: 1px solid #C4C4C4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cadre2 {
+  border-radius: 20px;
+  background-color: white;
+  padding: 8px;
+  margin-top: 22px;
+  margin-left: 18px;
+  margin-right: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.cadre3 {
+  border-radius: 20px;
+  background-color: white;
+  padding: 8px;
+  margin-top: 22px;
+  margin-bottom: 22px;
+  margin-left: 18px;
+  margin-right: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.cadre4 {
+  border-radius: 20px;
+  background-color: white;
+  padding: 8px;
+  margin-left: 18px;
+  margin-right: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.grandtitre {
+  font-size: 27.18px;
+  display: block;
+  margin-top: 32.64px;
+  margin-bottom: 28.06px;
+  margin-left: 20.49px;
+  font-family: montserrat;
+  color: #CD7575;
+}
+
+.prenomnom {
+  font-size: 17.9px;
+  display: block;
+  margin-bottom: 12.22px;
+  margin-left: 20.49px;
+  font-family: light;
+  color: #6B6B6B;
+}
+
+.image1 {
+  margin-left: 10px;
+  margin-right: 11.94px;
+}
+
+.chevron1 {
+  margin-left: 66px;
+  margin-top: 3.5px;
+}
+
+.chevron2 {
+  margin-left: 104px;
+  margin-top: 3.5px;
+}
+
+.chevron3 {
+  margin-left: 131px;
+  margin-top: 3.5px;
+}
+
+.text {
+  display: block;
+  margin-top: 3.9px;
+}
+
+.stylo1 {
+  display: block;
+  margin-left: 126px;
+}
+
+.stylo2 {
+  display: block;
+  margin-left: 53px;
+}
+
+.stylo3 {
+  display: block;
+  margin-left: 161px;
 }
 /*# sourceMappingURL=style.css.map */
