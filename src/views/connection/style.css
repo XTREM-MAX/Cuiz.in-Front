@@ -1,4 +1,134 @@
-p {
-  color: red;
+@font-face {
+  font-family: 'montserratblack';
+  src: url('Webfontkit/montserrat-black-webfont.woff2'),
+       url("Webfontkit/montserrat-black-webfont.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.titre
+{font-family: 'montserratblack';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 49px;
+
+  position: absolute;
+  width: 153px;
+  height: 44px;
+  left: 18px;
+  top: 13px;}
+
+.slogan 
+{position: absolute;
+width: 298px;
+height: 160px;
+left: 22px;
+top: 97px;
+
+font-family: 'montserratblack';
+font-style: normal;
+font-weight: bold;
+font-size: 27px;
+line-height: 33px }
+
+.icône_de_co_facebook
+{position: absolute;
+  width: 44px;
+  height: 42px;
+  left: 176px;
+  top: 316px}
+
+.icône_de_co_google
+{position: absolute;
+  width: 35px;
+  height: 35px;
+  left: 127px;
+  top: 316px;}
+.ou 
+{position: absolute;
+  width: 27px;
+  height: 23px;
+  left: 157px;
+  top: 360px;
+  
+  font-family: 'montserratblack';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  
+  color: #AEAEAE;}  
+
+  .mail
+  {position: absolute;
+    width: 152px;
+    height: 28px;
+    left: 47px;
+    top: 387px;
+    
+    font-family: "montserratblack";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #898989;}
+
+  .barre_mail
+  {position: absolute;
+    width: 247px;
+    height: 42px;
+    left: 47px;
+    top: 411px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.02);
+    border-radius: 15px;}
+
+  .mdp
+  {position: absolute;
+    width: 222px;
+    height: 28px;
+    left: 47px;
+    top: 460px;
+    
+    font-family: "montserratblack";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #898989;}  
+  
+  .barre_mdp
+  {position: absolute;
+    width: 247px;
+    height: 42px;
+    left: 47px;
+    top: 484px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.02);
+    border-radius: 15px;}
+
+.bouton
+{position: absolute;
+  width: 178px;
+  height: 42px;
+  left: 77px;
+  top: 542px;
+  
+  background: #CD7575;
+  border-radius: 20px;
+
+  font-family: "montserratblack";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #FFFFFF;
 }
 /*# sourceMappingURL=style.css.map */
