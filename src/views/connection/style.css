@@ -5,11 +5,19 @@
   font-weight: normal;
 }
 
+@font-face {
+  font-family: 'montserrat_bold';
+  src: url('../connection/Webfontkit/Montserrat-Bold.woff'), url('../connection/Webfontkit/Montserrat-Bold.woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
-  font-family: 'montserrat';
   font-size: 40px;
   width: 100%;
   margin: 0;
+  font-family: "montserrat_bold";
 }
 
 section {
@@ -60,6 +68,10 @@ section {
 .third-parties a {
   width: fit-content;
   display: contents;
+}
+
+.third-parties :hover {
+  transform: scale(1.05);
 }
 
 .third-parties img {
