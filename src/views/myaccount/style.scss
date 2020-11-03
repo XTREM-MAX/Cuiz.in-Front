@@ -91,15 +91,15 @@ body {
 
 }
 .chevron1{
-    margin-left: 66px;
+    margin-left: auto;
     margin-top: 3.5px;
 }
 .chevron2{
-    margin-left: 104px;
+    margin-left: auto;
     margin-top: 3.5px;
 }
 .chevron3{
-    margin-left: 131px;
+    margin-left: auto;
     margin-top: 3.5px;
 }
 .text{
@@ -108,13 +108,31 @@ body {
 }
 .stylo1{
     display: block;
-    margin-left: 126px;
+    margin-left: auto;
 }
 .stylo2{
     display: block;
-    margin-left: 53px;
+    margin-left: auto;
 }
 .stylo3{
     display: block;
-    margin-left: 161px;
+    margin-left: auto;
+}
+input#fname{
+    border: none;
+}
+input#date{
+    border: none;
+}
+input#Email{
+    border: none;
+}
+.un{
+    margin-top: 17px;
+}
+.deux{
+    margin-top: 17px;
+}
+.trois{
+    margin-top: 17px;
 }
