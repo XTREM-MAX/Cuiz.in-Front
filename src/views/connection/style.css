@@ -1,134 +1,136 @@
 @font-face {
-  font-family: 'montserratblack';
-  src: url('Webfontkit/montserrat-black-webfont.woff2'),
-       url("Webfontkit/montserrat-black-webfont.woff");
+  font-family: 'montserrat';
+  src: url("../connection/Webfontkit/Montserrat-Medium.woff"), url("../connection/Webfontkit/Montserrat-Medium.woff2");
   font-weight: normal;
   font-style: normal;
 }
 
-.titre
-{font-family: 'montserratblack';
+body {
+  font-family: 'montserrat';
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
+  width: 100%;
+  margin: 0;
+}
+
+section {
+  width: 338px;
+  margin: auto;
+  background-color: #E2F3F5;
+  border-radius: 7%
+}
+
+.rectangle1 {
+  background-image: url(../../../icons/vague.svg);
+  border-radius: 7%;
+  position: relative;
+  height: 292px;
+  left: 0px;
+  top: -4px;
+}
+
+.rectangle1_texte {
+  margin: 18px;
+}
+
+.titre {
   line-height: 49px;
+  font-size: 40px;
+  color: #FFFFFF
+}
 
-  position: absolute;
-  width: 153px;
-  height: 44px;
-  left: 18px;
-  top: 13px;}
+.slogan {
+  font-size: 23px;
+  line-height: 33px;
+  color: #FFFFFF
+}
 
-.slogan 
-{position: absolute;
-width: 298px;
-height: 160px;
-left: 22px;
-top: 97px;
+.rectangle2 {
+  height: 371px;
+}
 
-font-family: 'montserratblack';
-font-style: normal;
-font-weight: bold;
-font-size: 27px;
-line-height: 33px }
+.third-parties {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  width: 160px;
+}
 
-.icône_de_co_facebook
-{position: absolute;
-  width: 44px;
-  height: 42px;
-  left: 176px;
-  top: 316px}
+.third-parties a {
+  width: fit-content;
+  display: contents;
+}
 
-.icône_de_co_google
-{position: absolute;
-  width: 35px;
-  height: 35px;
-  left: 127px;
-  top: 316px;}
-.ou 
-{position: absolute;
-  width: 27px;
-  height: 23px;
-  left: 157px;
-  top: 360px;
-  
-  font-family: 'montserratblack';
-  font-style: normal;
+.third-parties img {
+  height: 100%;
+  width: auto;
+}
+
+.rectangle2_texte {
+  margin-top: -22px;
+}
+
+.ou {
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
   text-align: center;
-  
-  color: #AEAEAE;}  
+  color: #AEAEAE;
+  margin-bottom: 0;
+}
 
-  .mail
-  {position: absolute;
-    width: 152px;
-    height: 28px;
-    left: 47px;
-    top: 387px;
-    
-    font-family: "montserratblack";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
-    
-    color: #898989;}
+.form {
+  margin-top: -14px;
+}
 
-  .barre_mail
-  {position: absolute;
-    width: 247px;
-    height: 42px;
-    left: 47px;
-    top: 411px;
-    
-    background: #FFFFFF;
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.02);
-    border-radius: 15px;}
+.form div {
+  width: fit-content;
+  margin: auto;
+}
 
-  .mdp
-  {position: absolute;
-    width: 222px;
-    height: 28px;
-    left: 47px;
-    top: 460px;
-    
-    font-family: "montserratblack";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
-    
-    color: #898989;}  
-  
-  .barre_mdp
-  {position: absolute;
-    width: 247px;
-    height: 42px;
-    left: 47px;
-    top: 484px;
-    
-    background: #FFFFFF;
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.02);
-    border-radius: 15px;}
+.mail {
+  font-size: 18px;
+  color: #898989;
+}
 
-.bouton
-{position: absolute;
-  width: 178px;
+.barre_mail {
+  background: #FFFFFF;
+  border-radius: 15px;
+  width: 247px;
   height: 42px;
-  left: 77px;
-  top: 542px;
-  
+  outline: none;
+  border: none;
+  box-shadow: none
+}
+
+.mdp {
+  font-size: 18px;
+  line-height: 22px;
+  color: #898989;
+}
+
+.barre_mdp {
+  background: #FFFFFF;
+  border-radius: 15px;
+  width: 247px;
+  height: 42px;
+  outline: none;
+  border: none;
+  box-shadow: none
+}
+
+.bouton {
   background: #CD7575;
   border-radius: 20px;
-
-  font-family: "montserratblack";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 24px;
-
+  line-height: 42px;
+  width: 178px;
   color: #FFFFFF;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  border-color: #CD7575;
 }
+
 /*# sourceMappingURL=style.css.map */
