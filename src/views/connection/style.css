@@ -18,39 +18,30 @@ body {
   width: 100%;
   margin: 0;
   font-family: "montserrat_bold";
-}
-
-section {
-  width: 338px;
-  margin: auto;
   background-color: #E2F3F5;
-  border-radius: 7%
 }
 
 .rectangle1 {
-  background-image: url(../../../icons/vague.svg);
-  border-radius: 7%;
+  padding: 20px;
+  margin-bottom: 30px;
+  background-image: url(../../../static/icons/vague.svg);
   position: relative;
-  height: 292px;
-  left: 0px;
-  top: -4px;
-}
-
-.rectangle1_texte {
-  margin: 18px;
+  height: 305px;
 }
 
 .titre {
-  line-height: 49px;
-  font-size: 40px;
+  font-size: 48px;
   font-weight: bold;
   color: #FFFFFF
 }
 
 .slogan {
-  font-size: 23px;
-  line-height: 33px;
+  font-size: 33px;
+  margin-top: 35px;
   color: #FFFFFF
+}
+.join_us {
+  margin-top: 35px;
 }
 
 .rectangle2 {
