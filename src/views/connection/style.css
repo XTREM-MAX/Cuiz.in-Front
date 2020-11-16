@@ -28,7 +28,7 @@ section {
 }
 
 .rectangle1 {
-  background-image: url(../../../icons/vague.svg);
+  background-image: url(../../../static/icons/vagues.svg);
   border-radius: 7%;
   position: relative;
   height: 292px;
@@ -148,6 +148,10 @@ section {
   box-shadow: none;
   border-color: #CD7575;
   margin-top: 17px;
+}
+
+.bouton :hover {
+  transform: scale(1.05);
 }
 
 /*# sourceMappingURL=style.css.map */
