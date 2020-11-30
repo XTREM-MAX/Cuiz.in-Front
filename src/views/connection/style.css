@@ -1,157 +1,17 @@
-@font-face {
-  font-family: 'montserrat';
-  src: url("../connection/Webfontkit/Montserrat-Medium.woff"), url("../connection/Webfontkit/Montserrat-Medium.woff2");
-  font-style: normal;
-  font-weight: normal;
-}
+/* Error: expected more input.
+ *   ,
+ * 2 | {color :red;}  /*commentaire/*
+ *   |                               ^
+ *   '
+ *   src/views/connection/style.scss 2:31  root stylesheet */
 
-@font-face {
-  font-family: 'montserrat_bold';
-  src: url('../connection/Webfontkit/Montserrat-Bold.woff'), url('../connection/Webfontkit/Montserrat-Bold.woff2');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: expected more input.\a   \2577 \a 2 \2502  {color :red;}  /*commentaire/*\a   \2502                                ^\a   \2575 \a   src/views/connection/style.scss 2:31  root stylesheet";
 }
-
-body {
-  font-size: 40px;
-  width: 100%;
-  margin: 0;
-  font-family: "montserrat_bold";
-}
-
-section {
-  width: 338px;
-  margin: auto;
-  background-color: #E2F3F5;
-  border-radius: 7%
-}
-
-.rectangle1 {
-  background-image: url(../../../static/icons/vagues.svg);
-  border-radius: 7%;
-  position: relative;
-  height: 292px;
-  left: 0px;
-  top: -4px;
-}
-
-.rectangle1_texte {
-  margin: 18px;
-}
-
-.titre {
-  line-height: 49px;
-  font-size: 40px;
-  font-weight: bold;
-  color: #FFFFFF
-}
-
-.slogan {
-  font-size: 23px;
-  line-height: 33px;
-  color: #FFFFFF
-}
-
-.rectangle2 {
-  height: 371px;
-}
-
-.third-parties {
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  height: 70px;
-  width: 160px;
-}
-
-.third-parties a {
-  width: fit-content;
-  display: contents;
-}
-
-.third-parties :hover {
-  transform: scale(1.05);
-}
-
-.third-parties img {
-  height: 100%;
-  width: auto;
-}
-
-.rectangle2_texte {
-  margin-top: -22px;
-}
-
-.ou {
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 22px;
-  text-align: center;
-  color: #AEAEAE;
-  margin-bottom: 0;
-}
-
-.form {
-  margin-top: -14px;
-}
-
-.form div {
-  width: fit-content;
-  margin: auto;
-}
-
-.mail {
-  font-size: 18px;
-  color: #898989;
-  font-weight: lighter;
-}
-
-.barre_mail {
-  background: #FFFFFF;
-  border-radius: 15px;
-  width: 247px;
-  height: 42px;
-  outline: none;
-  border: none;
-  box-shadow: none;
-  padding-left: 13px
-}
-
-.mdp {
-  font-size: 18px;
-  line-height: 22px;
-  color: #898989;
-}
-
-.barre_mdp {
-  background: #FFFFFF;
-  border-radius: 15px;
-  width: 247px;
-  height: 42px;
-  outline: none;
-  border: none;
-  box-shadow: none;
-  padding-left: 13px
-}
-
-.bouton {
-  background: #CD7575;
-  border-radius: 20px;
-  line-height: 42px;
-  width: 178px;
-  color: #FFFFFF;
-  font-size: 20px;
-  font-weight: bold;
-  outline: none;
-  border: none;
-  box-shadow: none;
-  border-color: #CD7575;
-  margin-top: 17px;
-}
-
-.bouton :hover {
-  transform: scale(1.05);
-}
-
-/*# sourceMappingURL=style.css.map */

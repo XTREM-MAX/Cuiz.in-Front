@@ -1,19 +1,15 @@
-<<<<<<< HEAD
 @font-face {
-  font-family: 'montserrat';
+  font-family: "montserrat";
   src: url(../../../static/fonts/Montserrat-Bold.ttf);
 }
-
 @font-face {
-  font-family: 'regular';
+  font-family: "regular";
   src: url(../../../static/fonts/Montserrat-Regular.ttf);
 }
-
 @font-face {
-  font-family: 'light';
+  font-family: "light";
   src: url(../../../static/fonts/Montserrat-Light.otf);
 }
-
 body {
   background-color: #F1F6F6;
 }
@@ -38,8 +34,6 @@ body {
   display: block;
   margin-left: 10px;
   border-bottom: 1px solid #C4C4C4;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -50,13 +44,8 @@ body {
   margin-top: 22px;
   margin-left: 18px;
   margin-right: 22px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
 
 .cadre3 {
@@ -67,13 +56,8 @@ body {
   margin-bottom: 22px;
   margin-left: 18px;
   margin-right: 22px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
 
 .cadre4 {
@@ -82,13 +66,8 @@ body {
   padding: 8px;
   margin-left: 18px;
   margin-right: 22px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
 
 .grandtitre {
@@ -173,7 +152,5 @@ input#Email {
 .trois {
   margin-top: 17px;
 }
+
 /*# sourceMappingURL=style.css.map */
-=======
-/* No CSS *//*# sourceMappingURL=style.css.map */
->>>>>>> Connection_view_Elias
